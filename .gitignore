@@ -19,3 +19,16 @@
 
 # Go workspace file
 go.work
+terraform/key.json
+
+# Ignore files and directories created by Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfplan
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.lock.hcl
+# Ignore secret and sensitive files
+key.json
+
